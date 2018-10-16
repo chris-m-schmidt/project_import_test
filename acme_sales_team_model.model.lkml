@@ -5,7 +5,7 @@ include: "*.view.lkml"
 explore: order_items_for_sales_team {
   extends: [order_items_explore]
   from: order_items_for_sales_team
-  view_label: "Order Items Extended"
+  view_label: "Order Items for Sales Team"
 
   join: users {
     from: users
