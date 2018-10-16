@@ -1,8 +1,5 @@
-project_name: "chris_project_import_test"
-
-# # Use local_dependency: To enable referencing of another project
-# # on this instance with include: statements
+project_name: "acme_new_project"
 
 local_dependency: {
-  project: "chris_sandbox"
+  project: "acme_base_project"
 }

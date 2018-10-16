@@ -1,4 +1,4 @@
-include: "/chris_sandbox/order_items.view.lkml"
+include: "/acme_base_project/order_items.view.lkml"
 
 view: cool {
   extends: [order_items]
